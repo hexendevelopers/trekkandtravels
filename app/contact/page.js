@@ -96,9 +96,9 @@ const page = () => {
                       <h5>Need Any Urgent</h5>
                       <div className="text">
                         <i className="far fa-phone" />{" "}
-                        <a href="callto:+0001234588">+91483268087,</a>
+                        <a href="callto:+918714332630">+918714332630,</a>
                        
-                        <a href="callto:+0001234588">+919947172630  </a>
+                        <a href="callto:+91 99471 72630">+91 99471 72630  </a>
 
                       </div>
                     </div>
