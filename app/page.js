@@ -96,11 +96,11 @@ const page = () => {
                     We have{" "}
                     <span>
                       <span
-                        className="count-text plus"
+                        className="count-text "
                         data-speed={3000}
-                        data-stop={25}
+                        data-stop={5}
                       >
-                        <Counter end={25} />
+                        <Counter end={5} />
                       </span>{" "}
                       Years
                     </span>{" "}
@@ -111,11 +111,11 @@ const page = () => {
                   <div className="col-6">
                     <div className="counter-item counter-text-wrap">
                       <span
-                        className="count-text k-plus"
+                        className="count-text plus"
                         data-speed={3000}
-                        data-stop={3}
+                        data-stop={300}
                       >
-                        <Counter end={3} />
+                        <Counter end={300} />
                       </span>
                       <span className="counter-title">Popular Destination</span>
                     </div>
@@ -123,11 +123,11 @@ const page = () => {
                   <div className="col-6">
                     <div className="counter-item counter-text-wrap">
                       <span
-                        className="count-text m-plus"
+                        className="count-text k-plus"
                         data-speed={3000}
-                        data-stop={9}
+                        data-stop={10}
                       >
-                        <Counter end={9} />
+                        <Counter end={10} />
                       </span>
                       <span className="counter-title">Satisfied Clients</span>
                     </div>
@@ -266,11 +266,11 @@ const page = () => {
                     <div className="divider style-two counter-text-wrap my-25">
                       <span>
                         <span
-                          className="count-text plus"
-                          data-speed={3000}
-                          data-stop={25}
+                          className="count-text "
+                          data-speed={5}
+                          data-stop={5}
                         >
-                          0
+                          5
                         </span>{" "}
                         Years
                       </span>
