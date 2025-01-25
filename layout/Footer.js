@@ -332,8 +332,13 @@ const Footer1 = () => {
                   </li>
                   <li>
                     <i className="fal fa-phone-volume" />{" "}
-                    <a href="callto:+91 483 268087">
-                    +91 483 268087</a>
+                    <a href="callto:+918714332630">
+                    +918714332630</a>
+                  </li>
+                  <li>
+                    <i className="fal fa-phone-volume" />{" "}
+                    <a href="callto:+919947172630">
+                    +919947172630</a>
                   </li>
                 </ul>
               </div>
