@@ -262,7 +262,7 @@ const page = () => {
                       />
                       <span>4k+</span>
                     </div>
-                    <h6>850K+ Happy Customer</h6>
+                    <h6>10K+ Happy Customer</h6>
                     <div className="divider style-two counter-text-wrap my-25">
                       <span>
                         <span
@@ -429,7 +429,7 @@ const page = () => {
                 >
                   <div className="section-title mb-55">
                     <h2>
-                      <span>5280</span> Global Clients Say About Us Services
+                      <span>10K +</span> Global Clients Say About Us Services
                     </h2>
                   </div>
                   <Testimonial />
