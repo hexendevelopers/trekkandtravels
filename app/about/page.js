@@ -45,7 +45,7 @@ const page = () => {
                         Years Of Experience
                       </span>
                       <span className="text">We have</span>
-                      <span className="years">28+</span>
+                      <span className="years">5+</span>
                     </div>
                   </div>
                   <div className="col-md-8">
@@ -181,8 +181,8 @@ const page = () => {
                   </div>
                   <div className="col-6">
                     <div className="counter-item counter-text-wrap">
-                      <span className="count-text m-plus">
-                        <Counter end={9} />
+                      <span className="count-text k-plus">
+                        <Counter end={10} />
                       </span>
                       <span className="counter-title">Satisfied Clients</span>
                     </div>
