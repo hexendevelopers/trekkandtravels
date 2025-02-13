@@ -24,8 +24,8 @@ const page = () => {
                   solutions to meet your needs.
                 </p>
                 <div className="features-team-box mt-40">
-                  <h6>85+ Expert Team member</h6>
-                  <div className="feature-authors">
+                  <h6>10+ Expert Team member</h6>
+                  {/* <div className="feature-authors">
                     <img
                       src="assets/images/features/feature-author1.jpg"
                       alt="Author"
@@ -55,7 +55,7 @@ const page = () => {
                       alt="Author"
                     />
                     <span>+</span>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
