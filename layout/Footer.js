@@ -328,7 +328,7 @@ const Footer1 = () => {
                     </a>
                   </li>
                   <li>
-                    <i className="fal fa-clock" /> Mon - Fri, 08am - 05pm
+                    <i className="fal fa-clock" /> Monday to Saturday 10 AM - 06PM
                   </li>
                   <li>
                     <i className="fal fa-phone-volume" />{" "}
