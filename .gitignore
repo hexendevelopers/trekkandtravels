@@ -1,0 +1,15 @@
+node_modules
+
+# Next.js build output
+.next
+.next/
+out/
+
+# Local env files
+.env*.local
+
+# Vercel
+.vercel
+
+# Build cache
+*.pack
