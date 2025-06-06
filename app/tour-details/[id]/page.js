@@ -163,23 +163,48 @@ const TourDetailsContent = () => {
 
 
 
-              {packageData.itinerary && packageData.itinerary.length > 0 && (
+              {packageData.inclusions && packageData.inclusions.length > 0 && (
                 <>
-                  <h3>Itinerary - {packageData.days}</h3>
+                                  <h2>Itinerary</h2>
+
+                  <h4>Inclusions</h4>
                   <Accordion
                     className="accordion-two mt-25 mb-60"
                     defaultActiveKey={active}
                   >
-                    {packageData.itinerary.map((day, i) => (
+                    {packageData.inclusions.map((item, i) => (
                       <RaveloAccordion
-                        title={`Day ${i + 1}: ${day.title}`}
+                        title={item.title}
                         key={i}
                         event={`collapse${i}`}
                         onClick={() =>
                           setActive(active == `collapse${i}` ? "" : `collapse${i}`)
                         }
                         active={active}
-                        content={day.description}
+                        content={item.description}
+                      />
+                    ))}
+                  </Accordion>
+                </>
+              )}
+
+              {packageData.exclusions && packageData.exclusions.length > 0 && (
+                <>
+                  <h4>Exclusions</h4>
+                  <Accordion
+                    className="accordion-two mt-25 mb-60"
+                    defaultActiveKey={active2}
+                  >
+                    {packageData.exclusions.map((item, i) => (
+                      <RaveloAccordion
+                        title={item.title}
+                        key={i}
+                        event={`collapse${i}`}
+                        onClick={() =>
+                          setActive2(active2 === `collapse${i}` ? "" : `collapse${i}`)
+                        }
+                        active={active2}
+                        content={item.description}
                       />
                     ))}
                   </Accordion>

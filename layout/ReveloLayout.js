@@ -1,6 +1,7 @@
 "use client";
 import EmbedPopup from "@/components/popup/EmbedPopup";
 import ImageView from "@/components/popup/ImageView";
+import FirebasePopup from "@/components/popup/FirebasePopup";
 import { roveloUtility } from "@/utility";
 import { useEffect } from "react";
 import niceSelect from "react-nice-select";
@@ -17,9 +18,9 @@ const ReveloLayout = ({ children, header, footer, insta, sideBar }) => {
       niceSelect();
     };
   }, []);
-
   return (
     <div className={`page-wrapper ${sideBar ? "for-sidebar-menu" : ""}`}>
+      <FirebasePopup />
       <EmbedPopup />
       <ImageView />
       <Header header={header} />

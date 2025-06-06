@@ -35,7 +35,7 @@ const Menu = () => {
               <Link href="/">Home</Link>
             </li>
             <li>
-              <Link href="about">About</Link>
+              <Link href="/about">About</Link>
             </li>
             <li className="dropdown">
               <a href="#">Packages</a>
@@ -212,7 +212,7 @@ const Header2 = ({ sidebarClick }) => {
               </div>
             </li>
             <li>
-              <Link href="about">Abouthhhhhd</Link>
+              <Link href="/about">About</Link>
             </li>
             <li className="dropdown">
               <a href="#" onClick={() => activeMenuSet("Tours")}>
